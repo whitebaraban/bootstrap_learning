@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Alice; /* Гарнитура шрифта */
+    src: url(../fonts/Alice/Alice-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Open; /* Гарнитура шрифта */
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+	margin: 0px;
+	font-family: Alice, Open;
+} 
