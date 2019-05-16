@@ -1,0 +1,36 @@
+.post {
+	width: 400px;
+	margin: 50px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	position: relative;
+	overflow: hidden;
+}
+
+.post__img {
+	display: block;
+	width: 100%;
+	transition-duration: 500ms;
+	transition-property: transform;
+}
+
+.post__txt {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: lightblue;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	width: 100%;
+	transform: translateY(100%);
+	transition-duration: 500ms;
+	transition-property: transform;
+}
+
+.post:hover .post__txt {
+	transform: translateY(0);
+}
+
+.post:hover .post__img {
+	transform: translateY(-45%);
+}

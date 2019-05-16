@@ -64,9 +64,9 @@ body {
 	}
 
 	.head-btn {
-		flex: 12;
 		text-align: center;
 	}
+
 	.head-btn button {
 		font-family: Open;
 		font-size: 30px;
